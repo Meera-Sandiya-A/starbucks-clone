@@ -41,12 +41,19 @@ body {
   box-shadow: 0 .2rem .2rem 0 rgba(0, 0, 0, 0.2);
 }
 
+.logo-img{
+  height: 4.8rem;
+  width: 6.4rem;
+  padding: 0 .8rem;
+}
+
 .main-nav-list {
   display: flex;
-  gap: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
   list-style-type: none;
   text-decoration: none;
-  justify-content: flex-start;
 }
 
 .main-nav-link {
@@ -56,6 +63,7 @@ body {
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 800;
+  text-align: center;
 }
 
 .main-nav a:hover{
@@ -67,14 +75,14 @@ body {
   align-items: center;
   justify-content: center;
   gap: .8rem;
-  padding: 0 1.2rem 0 0;
+  padding: 0 4rem 0 1.2rem;
 }
 
 .nav-icon a {
   text-align: center;
   text-decoration: none;
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #000;
 }
 
@@ -84,7 +92,7 @@ body {
 }
 
 .btn-nav {
-font-size: 1.2rem;
+font-size: 1.3rem;
 }
 
 .btn-nav-join{
@@ -101,7 +109,6 @@ font-size: 1.2rem;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 3rem;
   padding: 3.6rem;
-
 }
 
 .step-text-box{
@@ -195,17 +202,25 @@ font-size: 1.2rem;
 }
 
 .social-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   list-style-type: none;
   padding: 2rem;
 }
 
 .footer-link {
   text-decoration: none;
-  color: #000;
 }
 
 .social-icon {
   padding: .6rem;
+}
+
+.social-icon:hover{
+  /* padding: .6rem;
+  border-radius: 100px;
+  background-color: #1E3932; */
 }
 
 .enqueries{
