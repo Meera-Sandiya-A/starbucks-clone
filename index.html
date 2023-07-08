@@ -7,7 +7,8 @@
 
     <title>Starbucks Coffee Company</title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
 
     <script
       type="module"
@@ -19,236 +20,340 @@
     ></script>
   </head>
   <body>
-    <header class="main-header">
-      <nav class="main-nav">
-        
-        <ul class="main-nav-list">
-          <li>
-            <img class="logo-img" src="imgs/logo.png" />
-          </li>
-          <li>
-            <a class="main-nav-link" href="#">Menu</a>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#">Rewards</a>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#">Gift Cards</a>
-          </li>
-        </ul>
+    <div class="main-container">
+      <header class="main-header">
+        <!-- NAVIGATION BAR -->
 
-        <div class="main-nav-btn">
-        <span class="nav-icon">
-          <i >
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0f0f0f" viewBox="0 0 256 256"><path d="M128,16a88.1,88.1,0,0,0-88,88c0,75.3,80,132.17,83.41,134.55a8,8,0,0,0,9.18,0C136,236.17,216,179.3,216,104A88.1,88.1,0,0,0,128,16Zm0,56a32,32,0,1,1-32,32A32,32,0,0,1,128,72Z"></path></svg>
-          </i>
-          <a href="#">Find a store</a>
-        </span>
-
-          <button class="btn btn-nav">Sign in</button>
-          <button class="btn btn-nav btn-nav-join">Join now</button>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <section class="section-hero">
-        <div class="container grid grid--2-cols">
-          <!-- Step 01 -->
-          <div class="step-text-box" style="background-color: #eb81a5;">
-            <h1 class="heading-primary">Talk about refreshing</h1>
-            <p class="step-description">
-              Introducing our vibrant new Frozen Lemonade Starbucks Refreshers®
-              beverages: Strawberry Acai, Pineapple Passion fruit and Mango
-              Dragon fruit.
-            </p>
-            <button class="btn step-btn">Order now</button>
-          </div>
-          
-          <div class="step-img-box">
-            <img src="imgs/pic-1.jpg" class="step-img" />
-          </div>
-
-          <!-- Step 02 -->
-          <div class="step-img-box">
-            <img src="imgs/pic-2.webp" class="step-img" />
-          </div>
-
-          <div class="step-text-box" style="background-color: #d4e9e2;">
-            <h3 class="heading-tertiary">Soak up delicious Rewards</h3>
-            <p class="step-description" style="font-size: 1.6rem;">
-              You're closer than you think to free drinks & food.*
-            </p>
-            <button class="btn step-btn">Join now</button>
-          </div>
-
-          <!-- Step 03 -->
-          <div class="step-text-box" style="background-color: #8f8bf4; color: #000;">
-            <h1 class="heading-primary">Summer to the max</h1>
-            <p class="step-description">
-              Go for a Mocha Cookie Crumble or Caramel Ribbon Crunch
-              Frappuccino® blended beverage.
-            </p>
-            <button class="btn step-btn">Order now</button>
-          </div>
-
-          <div class="step-img-box">
-            <img src="imgs/pic-3.jpg" class="step-img" />
-          </div>
-
-          <!-- Step 04 -->
-          <div class="step-img-box">
-            <img src="imgs/pic-4.jpg" class="step-img" />
-          </div>
-
-          <div class="step-text-box" style="background-color: #cbe678;">
-            <h1 class="heading-primary">Get there satisfied</h1>
-            <p class="step-description">
-              Fill up on the way with a Spinach, Feta & Egg White Wrap or Bacon,
-              Sausage & Egg Wrap. Order now
-            </p>
-            <button class="btn step-btn">Order now</button>
-          </div>
-
-          <!-- Step 05 -->
-          <div class="step-text-box" style="background-color: #e1fccd;">
-            <h3 class="heading-tertiary">Be kind to your mind</h3>
-            <p class="step-description" style="font-size: 1.8rem;">
-              We teamed up with Headspace to bring you four free meditations on
-              kindness, plus a special offer for Starbucks® Rewards
-              members—discover more mindfulness with a two-month free
-              membership.**
-            </p>
-            <button class="btn step-btn">Listen now</button>
-          </div>
-
-          <div class="step-img-box">
-            <img src="imgs/pic-5.jpg" class="step-img" />
-          </div>
-        </div>
-      </section>
-
-      <section class="main-description">
-        <p>
-          *Starbucks Rewards is available at participating stores. Some
-          restrictions apply. See <a href="https://starbucks.com/rewards">https://starbucks.com/rewards</a>
-        </p>
-       
-        <p>
-          **After your two-month free trial, exclusive to Starbucks® Rewards
-          members, the subscription renews automatically at $69.99 USD for an
-          annual subscription to Headspace. You can cancel at any time. This
-          offer is for new and returning Headspace users only.
-        </p>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-address">
-        <div class="footer-details">
-          <p>About Us</p>
-          <span></span>
-          <ul class="details">
-            <li>Our Company</li>
-            <li>Our Coffee</li>
-            <li>Stories and News</li>
-            <li>Starbucks Archive</li>
-            <li>Investor Relations</li>
-            <li>Customer Service</li>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <img class="logo-img" src="imgs/logo.png" />
+            </li>
+            <li>
+              <a class="main-nav-link" href="#">Menu</a>
+            </li>
+            <li>
+              <a class="main-nav-link" href="#">Rewards</a>
+            </li>
+            <li>
+              <a class="main-nav-link" href="#">Gift Cards</a>
+            </li>
           </ul>
+
+          <div class="main-nav-btn">
+            <span class="nav-icon">
+              <i>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="#0f0f0f"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M128,16a88.1,88.1,0,0,0-88,88c0,75.3,80,132.17,83.41,134.55a8,8,0,0,0,9.18,0C136,236.17,216,179.3,216,104A88.1,88.1,0,0,0,128,16Zm0,56a32,32,0,1,1-32,32A32,32,0,0,1,128,72Z"
+                  ></path>
+                </svg>
+              </i>
+              <a href="#">Find a store</a>
+            </span>
+
+            <button class="btn btn-nav">
+              <a href="signin.html">Sign in</a>
+            </button>
+            <button class="btn btn-nav btn-nav-join">
+              <a href="join-now.html">Join now</a>
+            </button>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <!-- SECTION GRID -->
+        <section class="section-hero">
+          <div class="grid--2-cols">
+            <!-- Step 01 -->
+            <div class="step-text-box" style="background-color: #eb81a5">
+              <h1 class="heading-primary">Talk about refreshing</h1>
+              <p class="step-description">
+                Introducing our vibrant new Frozen Lemonade Starbucks
+                Refreshers® beverages: Strawberry Acai, Pineapple Passion fruit
+                and Mango Dragon fruit.
+              </p>
+              <button class="btn step-btn">Order now</button>
+            </div>
+
+            <div class="step-img-box">
+              <img src="imgs/pic-1.jpg" class="step-img" />
+            </div>
+
+            <!-- Step 02 -->
+            <div class="step-img-box">
+              <img src="imgs/pic-2.webp" class="step-img" />
+            </div>
+
+            <div class="step-text-box" style="background-color: #d4e9e2">
+              <h3 class="heading-tertiary">Soak up delicious Rewards</h3>
+              <p class="step-description" style="font-size: 1.6rem">
+                You're closer than you think to free drinks & food.*
+              </p>
+              <button class="btn step-btn">Join now</button>
+            </div>
+
+            <!-- Step 03 -->
+            <div
+              class="step-text-box"
+              style="background-color: #8f8bf4; color: #000"
+            >
+              <h1 class="heading-primary">Summer to the max</h1>
+              <p class="step-description">
+                Go for a Mocha Cookie Crumble or Caramel Ribbon Crunch
+                Frappuccino® blended beverage.
+              </p>
+              <button class="btn step-btn">Order now</button>
+            </div>
+
+            <div class="step-img-box">
+              <img src="imgs/pic-3.jpg" class="step-img" />
+            </div>
+
+            <!-- Step 04 -->
+            <div class="step-img-box">
+              <img src="imgs/pic-4.jpg" class="step-img" />
+            </div>
+
+            <div class="step-text-box" style="background-color: #cbe678">
+              <h1 class="heading-primary">Get there satisfied</h1>
+              <p class="step-description">
+                Fill up on the way with a Spinach, Feta & Egg White Wrap or
+                Bacon, Sausage & Egg Wrap. Order now
+              </p>
+              <button class="btn step-btn">Order now</button>
+            </div>
+
+            <!-- Step 05 -->
+            <div class="step-text-box" style="background-color: #e1fccd">
+              <h3 class="heading-tertiary">Be kind to your mind</h3>
+              <p class="step-description" style="font-size: 1.8rem">
+                We teamed up with Headspace to bring you four free meditations
+                on kindness, plus a special offer for Starbucks® Rewards
+                members—discover more mindfulness with a two-month free
+                membership.**
+              </p>
+              <button class="btn step-btn">Listen now</button>
+            </div>
+
+            <div class="step-img-box">
+              <img src="imgs/pic-5.jpg" class="step-img" />
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION DESCRIPTION -->
+
+        <section class="main-description">
+          <p>
+            *Starbucks Rewards is available at participating stores. Some
+            restrictions apply. See
+            <a href="https://starbucks.com/rewards"
+              >https://starbucks.com/rewards</a
+            >
+          </p>
+
+          <p>
+            **After your two-month free trial, exclusive to Starbucks® Rewards
+            members, the subscription renews automatically at $69.99 USD for an
+            annual subscription to Headspace. You can cancel at any time. This
+            offer is for new and returning Headspace users only.
+          </p>
+        </section>
+      </main>
+
+      <!-- SECTION FOOTER -->
+
+      <footer class="footer">
+        <div class="footer-address">
+          <div class="footer-details">
+            <p>About Us</p>
+            <span></span>
+            <ul class="details">
+              <li>Our Company</li>
+              <li>Our Coffee</li>
+              <li>Stories and News</li>
+              <li>Starbucks Archive</li>
+              <li>Investor Relations</li>
+              <li>Customer Service</li>
+            </ul>
+          </div>
+
+          <div class="footer-details">
+            <p>Careers</p>
+            <span></span>
+            <ul class="details">
+              <li>Culture and Values</li>
+              <li>Inclusion, Diversity, and Equity</li>
+              <li>College Achievement Plan</li>
+              <li>Alumni Community</li>
+              <li>U.S. Careers</li>
+              <li>International Careers</li>
+            </ul>
+          </div>
+
+          <div class="footer-details">
+            <p>Social Impact</p>
+            <span></span>
+            <ul class="details">
+              <li>People</li>
+              <li>Planet</li>
+              <li>Environmental and Social Impact Reporting</li>
+            </ul>
+          </div>
+
+          <div class="footer-details">
+            <p>For Business Partners</p>
+            <span></span>
+            <ul class="details">
+              <li>landlord Support Center</li>
+              <li>Suppliers</li>
+              <li>Corporate Gift Card sales</li>
+              <li>Office and Food service Coffee</li>
+            </ul>
+          </div>
+
+          <div class="footer-details">
+            <p>Order and Pick Up</p>
+            <span></span>
+            <ul class="details">
+              <li>Order on the App</li>
+              <li>Order on the Web</li>
+              <li>Delivery</li>
+              <li>Order and Pick Up Options</li>
+              <li>Explore and Find Coffee for Home</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="footer-details">
-          <p>Careers</p>
-          <span></span>
-          <ul class="details">
-            <li>Culture and Values</li>
-            <li>Inclusion, Diversity, and Equity</li>
-            <li>College Achievement Plan</li>
-            <li>Alumni Community</li>
-            <li>U.S. Careers</li>
-            <li>International Careers</li>
+        <div class="footer-links">
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#">
+                <i class="social-icon"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    fill="#0f0f0f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm31.07,145.74a8,8,0,0,1-10.81,3.33,42.79,42.79,0,0,0-40.52,0,8,8,0,0,1-7.48-14.14,59.33,59.33,0,0,1,55.48,0A8,8,0,0,1,159.07,169.74Zm16-28a8,8,0,0,1-10.82,3.3,77.07,77.07,0,0,0-72.48,0,8,8,0,0,1-7.52-14.12,93,93,0,0,1,87.52,0A8,8,0,0,1,175.06,141.76Zm16-28a8,8,0,0,1-10.83,3.29,110.62,110.62,0,0,0-104.46,0,8,8,0,0,1-7.54-14.12,126.67,126.67,0,0,1,119.54,0A8,8,0,0,1,191.06,113.76Z"
+                    ></path></svg></i
+              ></a>
+              <a class="footer-link" href="#">
+                <i class="social-icon"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    fill="#0f0f0f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M232,128a104.16,104.16,0,0,1-91.55,103.26,4,4,0,0,1-4.45-4V152h24a8,8,0,0,0,8-8.53,8.17,8.17,0,0,0-8.25-7.47H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,8-8.53A8.17,8.17,0,0,0,167.73,80H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0-8,8.53A8.17,8.17,0,0,0,96.27,152H120v75.28a4,4,0,0,1-4.44,4A104.15,104.15,0,0,1,24.07,124.09c2-54,45.74-97.9,99.78-100A104.12,104.12,0,0,1,232,128Z"
+                    ></path>
+                  </svg>
+                </i>
+              </a>
+              <a class="footer-link" href="#">
+                <i class="social-icon"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    fill="#0f0f0f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M232,128.7c-.38,56.49-46.46,102.73-102.94,103.29a104.16,104.16,0,0,1-25.94-3,4,4,0,0,1-2.91-4.86l8.64-34.55A60.57,60.57,0,0,0,136,196c37,0,66.7-33.45,63.81-73.36A72,72,0,1,0,61.24,155,8,8,0,0,0,72,159.29a8.19,8.19,0,0,0,4-10.49,56,56,0,1,1,107.86-24.93C186,154.4,163.73,180,136,180a44.87,44.87,0,0,1-23.14-6.44l14.9-59.62a8,8,0,0,0-15.52-3.88L85.38,217.51a4,4,0,0,1-5.71,2.59A104,104,0,0,1,24,126.88C24.6,70.52,70.67,24.52,127,24A104,104,0,0,1,232,128.7Z"
+                    ></path>
+                  </svg>
+                </i>
+              </a>
+              <a class="footer-link" href="#">
+                <i class="social-icon"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    fill="#0f0f0f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24ZM128,176a48,48,0,1,1,48-48A48.05,48.05,0,0,1,128,176Zm60-96a12,12,0,1,1,12-12A12,12,0,0,1,188,80Zm-28,48a32,32,0,1,1-32-32A32,32,0,0,1,160,128Z"
+                    ></path>
+                  </svg>
+                </i>
+              </a>
+              <a class="footer-link" href="#">
+                <i class="social-icon"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    fill="#0f0f0f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-72.11,61.81-48,32A4,4,0,0,1,108,160V96a4,4,0,0,1,6.22-3.33l48,32a4,4,0,0,1,0,6.66Z"
+                    ></path>
+                  </svg>
+                </i>
+              </a>
+              <a class="footer-link" href="#">
+                <i class="social-icon"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    fill="#0f0f0f"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M245.66,77.66l-29.9,29.9C209.72,177.58,150.67,232,80,232c-14.52,0-26.49-2.3-35.58-6.84-7.33-3.67-10.33-7.6-11.08-8.72a8,8,0,0,1,3.85-11.93c.26-.1,24.24-9.31,39.47-26.84a110.93,110.93,0,0,1-21.88-24.2c-12.4-18.41-26.28-50.39-22-98.18a8,8,0,0,1,13.65-4.92c.35.35,33.28,33.1,73.54,43.72V88a47.87,47.87,0,0,1,14.36-34.3A46.87,46.87,0,0,1,168.1,40a48.66,48.66,0,0,1,41.47,24H240a8,8,0,0,1,5.66,13.66Z"
+                    ></path>
+                  </svg>
+                </i>
+              </a>
+            </li>
           </ul>
-        </div>
 
-        <div class="footer-details">
-          <p>Social Impact</p>
-          <span></span>
-          <ul class="details">
-            <li>People</li>
-            <li>Planet</li>
-            <li>Environmental and Social Impact Reporting</li>
+          <ul class="enquery">
+            <li>
+              <a href="#">Privacy Notice</a>
+            </li>
+            <li>|</li>
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+            <li>|</li>
+            <li>
+              <a href="#">Do Not Share My Personal Information</a>
+            </li>
+            <li>|</li>
+            <li>
+              <a href="#">CA Supply Chain Act</a>
+            </li>
+            <li>|</li>
+            <li>
+              <a href="#">Cookie Preferences</a>
+            </li>
           </ul>
+          <p class="copyright">
+            &copy; 2023 Starbucks Coffee Company. All rights reserved.
+          </p>
         </div>
-
-        <div class="footer-details">
-          <p>For Business Partners</p>
-          <span></span>
-          <ul class="details">
-            <li>landlord Support Center</li>
-            <li>Suppliers</li>
-            <li>Corporate Gift Card sales</li>
-            <li>Office and Food service Coffee</li>
-          </ul>
-        </div>
-
-        <div class="footer-details">
-          <p>Order and Pick Up</p>
-          <span></span>
-          <ul class="details">
-            <li>Order on the App</li>
-            <li>Order on the Web</li>
-            <li>Delivery</li>
-            <li>Order and Pick Up Options</li>
-            <li>Explore and Find Coffee for Home</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer-links">
-        <ul class="social-links">
-          <li>
-            <a class="footer-link" href="#">
-              <i class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0f0f0f" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm31.07,145.74a8,8,0,0,1-10.81,3.33,42.79,42.79,0,0,0-40.52,0,8,8,0,0,1-7.48-14.14,59.33,59.33,0,0,1,55.48,0A8,8,0,0,1,159.07,169.74Zm16-28a8,8,0,0,1-10.82,3.3,77.07,77.07,0,0,0-72.48,0,8,8,0,0,1-7.52-14.12,93,93,0,0,1,87.52,0A8,8,0,0,1,175.06,141.76Zm16-28a8,8,0,0,1-10.83,3.29,110.62,110.62,0,0,0-104.46,0,8,8,0,0,1-7.54-14.12,126.67,126.67,0,0,1,119.54,0A8,8,0,0,1,191.06,113.76Z"></path></svg></i></a>
-            <a class="footer-link" href="#">
-              <i class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0f0f0f" viewBox="0 0 256 256"><path d="M232,128a104.16,104.16,0,0,1-91.55,103.26,4,4,0,0,1-4.45-4V152h24a8,8,0,0,0,8-8.53,8.17,8.17,0,0,0-8.25-7.47H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,8-8.53A8.17,8.17,0,0,0,167.73,80H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0-8,8.53A8.17,8.17,0,0,0,96.27,152H120v75.28a4,4,0,0,1-4.44,4A104.15,104.15,0,0,1,24.07,124.09c2-54,45.74-97.9,99.78-100A104.12,104.12,0,0,1,232,128Z"></path></svg></i>
-            </a>
-            <a class="footer-link" href="#">
-              <i class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0f0f0f" viewBox="0 0 256 256"><path d="M232,128.7c-.38,56.49-46.46,102.73-102.94,103.29a104.16,104.16,0,0,1-25.94-3,4,4,0,0,1-2.91-4.86l8.64-34.55A60.57,60.57,0,0,0,136,196c37,0,66.7-33.45,63.81-73.36A72,72,0,1,0,61.24,155,8,8,0,0,0,72,159.29a8.19,8.19,0,0,0,4-10.49,56,56,0,1,1,107.86-24.93C186,154.4,163.73,180,136,180a44.87,44.87,0,0,1-23.14-6.44l14.9-59.62a8,8,0,0,0-15.52-3.88L85.38,217.51a4,4,0,0,1-5.71,2.59A104,104,0,0,1,24,126.88C24.6,70.52,70.67,24.52,127,24A104,104,0,0,1,232,128.7Z"></path></svg></i>
-            </a>
-            <a class="footer-link" href="#"
-              > <i class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0f0f0f" viewBox="0 0 256 256"><path d="M176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24ZM128,176a48,48,0,1,1,48-48A48.05,48.05,0,0,1,128,176Zm60-96a12,12,0,1,1,12-12A12,12,0,0,1,188,80Zm-28,48a32,32,0,1,1-32-32A32,32,0,0,1,160,128Z"></path></svg></i>
-            </a>
-            <a class="footer-link" href="#">
-              <i class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0f0f0f" viewBox="0 0 256 256"><path d="M234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-72.11,61.81-48,32A4,4,0,0,1,108,160V96a4,4,0,0,1,6.22-3.33l48,32a4,4,0,0,1,0,6.66Z"></path></svg></i>
-            </a>
-            <a class="footer-link" href="#">
-              <i class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#0f0f0f" viewBox="0 0 256 256"><path d="M245.66,77.66l-29.9,29.9C209.72,177.58,150.67,232,80,232c-14.52,0-26.49-2.3-35.58-6.84-7.33-3.67-10.33-7.6-11.08-8.72a8,8,0,0,1,3.85-11.93c.26-.1,24.24-9.31,39.47-26.84a110.93,110.93,0,0,1-21.88-24.2c-12.4-18.41-26.28-50.39-22-98.18a8,8,0,0,1,13.65-4.92c.35.35,33.28,33.1,73.54,43.72V88a47.87,47.87,0,0,1,14.36-34.3A46.87,46.87,0,0,1,168.1,40a48.66,48.66,0,0,1,41.47,24H240a8,8,0,0,1,5.66,13.66Z"></path></svg></i>
-            </a>
-          </li>
-        </ul>
-
-        <ul class="enqueries">
-          <li>
-              <a href="#">Privacy Notice</a></li>
-          <li>|</li>
-          <li>
-              <a href="#">Terms of Use</a></li>
-          <li>|</li>
-          <li>
-              <a href="#">Do Not Share My Personal Information</a></li>
-          <li>|</li>
-          <li>
-              <a href="#">CA Supply Chain Act</a></li>
-          <li>|</li>
-          <li>
-              <a href="#">Cookie Preferences</a></li>
-        </ul>
-        <p class="copyright">
-          &copy; 2023 Starbucks Coffee Company. All rights reserved.
-        </p>
-      </div>
-    </footer>
+      </footer>
+    </div>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

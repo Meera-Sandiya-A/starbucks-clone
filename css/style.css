@@ -1,0 +1,119 @@
+/*************************/
+/* NAVIGATION BAR */
+/*************************/
+
+.main-nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.main-nav a:hover {
+  color: #3fa34d;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 0 4rem 0 1.2rem;
+}
+
+.nav-icon a {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #000;
+}
+
+.main-nav-btn {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-nav a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-nav-join a {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-nav-join a:hover {
+  background-color: rgba(0, 0, 0, 0.793);
+  color: #fff;
+}
+
+/*************************/
+/* SECTION GRID */
+/*************************/
+
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 3rem;
+  padding: 3.6rem;
+}
+
+.step-text-box {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.6rem;
+  color: #1e3932;
+}
+
+.step-description {
+  text-align: center;
+  line-height: 2;
+  padding: 0 4rem 0 4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3.6rem;
+}
+
+.step-img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+/*************************/
+/*  COMPANY DESCRIPTION */
+/*************************/
+
+.main-description {
+  padding: 3.6rem;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column;
+  row-gap: 9.6rem;
+  border-bottom: 2px solid #ddd;
+}
+
+.main-description p {
+  max-width: calc(1em * (calc(600 / 13)));
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.main-description a {
+  color: #000;
+}
+
+.main-description a:hover {
+  text-decoration: none;
+}
