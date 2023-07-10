@@ -8,7 +8,7 @@
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1.3rem;
-  font-weight: 800;
+  font-weight: 900;
   text-align: center;
 }
 
@@ -37,31 +37,53 @@
   gap: 16px;
 }
 
-.btn-nav a {
+.btn-nav {
   font-size: 1.3rem;
   text-decoration: none;
   color: #000;
 }
 
-.btn-nav-join a {
+.main-nav-btn .btn-nav-join {
   background-color: #000;
   color: #fff;
 }
 
-.btn-nav-join a:hover {
+.main-nav-btn .btn-nav-join:hover {
   background-color: rgba(0, 0, 0, 0.793);
   color: #fff;
+}
+
+/* Mobile Navigation */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  /* display: none; */
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+  padding: 2.2rem;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /*************************/
 /* SECTION GRID */
 /*************************/
+.hero-content {
+  padding: 3.6rem;
+}
 
 .grid--2-cols {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 3rem;
-  padding: 3.6rem;
+  padding-bottom: 3rem;
 }
 
 .step-text-box {

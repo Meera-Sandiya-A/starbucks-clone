@@ -35,13 +35,13 @@ body {
   display: inline-block;
   text-align: center;
   background: none;
-  border-style: solid;
-  border-width: 0.1rem;
+  border: 0.1rem solid #000;
   border-radius: 15px;
   padding: 0.7rem 2rem;
   font-size: 1.6rem;
   font-weight: 600;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .btn:hover {
@@ -51,13 +51,15 @@ body {
 /* ================================ */
 /* NAVIGATION BAR */
 /* ================================ */
+.main-header {
+  box-shadow: 0 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+}
 
 .main-nav {
-  padding: 2.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+  padding: 2.2rem;
 }
 
 .logo-img {
@@ -75,6 +77,10 @@ body {
   text-decoration: none;
 }
 
+.main-nav-btn a {
+  text-decoration: none;
+  color: #000;
+}
 /* ================================ */
 /* FOOTER SECTION */
 /* ================================ */
@@ -118,8 +124,8 @@ body {
 }
 
 .social-icon:hover {
-  border-radius: 100px;
-  background-color: #1e3932;
+  /* border-radius: 100px;
+  background-color: #1e3932; */
 }
 
 .enquery {
