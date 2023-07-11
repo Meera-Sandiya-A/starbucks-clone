@@ -11,8 +11,6 @@ html {
 }
 
 body {
-  /* max-width: 140rem; */
-  /* margin: 0 auto; */
   font-family: "Lato", sans-serif;
   letter-spacing: 0.18rem;
 }
@@ -51,6 +49,7 @@ body {
 /* ================================ */
 /* NAVIGATION BAR */
 /* ================================ */
+
 .main-header {
   padding: 2.2rem;
   box-shadow: 0 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.2);
@@ -67,6 +66,7 @@ body {
   height: 4.8rem;
   width: 6.4rem;
   padding: 0 0.8rem;
+  cursor: pointer;
 }
 
 .main-nav-list {
@@ -82,9 +82,11 @@ body {
   text-decoration: none;
   color: #000;
 }
+
 /* ================================ */
 /* FOOTER SECTION */
 /* ================================ */
+
 .footer-address {
   margin: 3rem;
   border-bottom: 2px solid #ddd;
@@ -135,14 +137,14 @@ body {
   list-style: none;
 }
 
-.enquery a:active,
-.enquery a:link {
+.enquery li a:link,
+.enquery li a:visited{
   color: #000;
   text-decoration: none;
 }
 
-.enquery a:hover,
-.enquery a:visited {
+.enquery li a:hover,
+.enquery li a:active {
   text-decoration: underline;
 }
 

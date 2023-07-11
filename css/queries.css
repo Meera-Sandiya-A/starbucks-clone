@@ -1,7 +1,9 @@
 /*************************/
 /* BELOW 1044px  */
 /*************************/
+
 @media (max-width: 65.25em) {
+
   /* font-size changes */
   .heading-primary {
     font-size: 4.4rem;
@@ -11,7 +13,6 @@
   .footer-address {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
   }
 
   .footer-details {
@@ -24,13 +25,8 @@
   }
 
   .enquery {
-    display: flex;
     flex-direction: column;
     padding: 0.6rem 2rem;
-  }
-
-  .enquery li a {
-    color: #000;
   }
 
   .enquery li:nth-child(even) {
@@ -41,7 +37,9 @@
 /*************************/
 /* BELOW 950px  */
 /*************************/
+
 @media (max-width: 59em) {
+
   html {
     /* define 1rem is 9px
         9px / 16px = 56.25% */
@@ -138,6 +136,7 @@
 /*************************/
 /* BELOW 770px  */
 /*************************/
+
 @media (max-width: 48em) {
   .grid {
     grid-template-columns: 1fr;
@@ -147,6 +146,7 @@
 /*************************/
 /* BELOW 544px  */
 /*************************/
+
 @media (max-width: 34em) {
   .main-description {
     padding: 3.6rem 3rem;

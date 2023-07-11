@@ -1,6 +1,7 @@
 /*************************/
 /* NAVIGATION BAR */
 /*************************/
+
 .main-header{
   display: flex;
   align-items: center;
@@ -101,6 +102,7 @@
 /*************************/
 /* SECTION GRID */
 /*************************/
+
 .hero-content {
   padding: 3.6rem;
 }
