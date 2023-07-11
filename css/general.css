@@ -52,6 +52,7 @@ body {
 /* NAVIGATION BAR */
 /* ================================ */
 .main-header {
+  padding: 2.2rem;
   box-shadow: 0 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -59,7 +60,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2.2rem;
+ margin-left: 1.6rem;
 }
 
 .logo-img {
@@ -121,11 +122,6 @@ body {
 
 .footer-link {
   text-decoration: none;
-}
-
-.social-icon:hover {
-  /* border-radius: 100px;
-  background-color: #1e3932; */
 }
 
 .enquery {
